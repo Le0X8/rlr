@@ -3,7 +3,7 @@
 
 ---
 
-<p align="center"> -( <a href="https://r.leox.li/">Create a random link</a> )- </p>
+<p align="center"> ---( <a href="https://r.leox.li/">Create a random link</a> )--- </p>
 
 ---
 
