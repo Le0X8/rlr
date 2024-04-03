@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteBase /
+RewriteRule ^(.*)$ index.php?url=$1 [NC,QSA,L,PT]
