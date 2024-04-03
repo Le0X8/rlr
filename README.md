@@ -3,6 +3,10 @@
 
 ---
 
+<p align="center"> -( <a href="https://r.leox.li/">Create a random link</a> )- </p>
+
+---
+
 ## About
 
 This project can be used to redirect users to random destinations. The user can't guess the link target, because the URL is obfuscated and Base64URL-encoded.
