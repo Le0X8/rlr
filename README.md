@@ -1,12 +1,6 @@
 <h1 align="center">Leo's random redirector :)</h1>
 <p align="center">random link redirection with Base64URL + <a href="https://github.com/Le0X8/obf?tab=readme-ov-file#byte-difference">byte difference</a> obfuscation</p>
 
----
-
-<p align="center"> ---( <a href="https://r.leox.li/">Create a random link</a> )--- </p>
-
----
-
 ## About
 
 This project can be used to redirect users to random destinations. The user can't guess the link target, because the URL is obfuscated and Base64URL-encoded.
@@ -45,7 +39,7 @@ URL: `https://leox.dev`
 3. `bPkKCbY2ARE`
 4. `bPkKCbY2ARE`
 
-This can also be tested in the JS console in the devtools on [`r.leox.li`](https://r.leox.li/):
+This can also be tested in the JS console in the devtools:
 
 ```js
 encode('https://leox.dev');
