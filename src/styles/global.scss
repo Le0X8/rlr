@@ -1,0 +1,110 @@
+* {
+  transition-duration: 0.33s;
+}
+
+body {
+  background-color: #222;
+  color: #fff;
+  font-family: Helvetica, 'Neue Haas Grotesk Text Pro', Inter, sans-serif;
+  margin: 0;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 1.5rem;
+  background-color: #333;
+  line-height: 1.5rem;
+  font-size: 0.75rem;
+  text-align: right;
+}
+
+nav a {
+  background-color: #0000;
+  display: block;
+  height: 1.5rem;
+  float: right;
+  padding: 0 0.25rem;
+  color: #fff;
+}
+
+a:link, a:hover, a:visited, a:active, a:focus {
+  color: #fff;
+}
+
+
+nav a:hover {
+  background-color: #555f;
+}
+
+main {
+  margin: 1.5rem 0;
+}
+
+hgroup, main, noscript {
+  max-width: 30rem;
+  margin-left: auto;
+    margin-right: auto;
+  width: fit-content;
+  padding: 1rem;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+noscript {
+  display: block;
+  background-color: #211;
+  border: 0.125rem solid #f33;
+  border-radius: 1rem;
+  font-weight: bold;
+  color: #f77;
+}
+
+.nojs main {
+  display: none;
+}
+
+main {
+  width: calc(100% - 2rem);
+}
+
+span {
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  min-height: 0.75rem;
+  background-color: #111;
+  border: 0.125rem solid #333;
+  border-radius: 1rem;
+  font-family: 'Cascadia Code', Consolas, monospace;
+}
+
+li {
+  color: #aaa;
+    margin: 0.5rem;
+}
+
+input {
+  width: calc(100% - 6rem);
+}
+
+button {
+  width: 5rem;
+}
+
+footer {
+  width: 100vw;
+  opacity: 0.5;
+}
+
+footer p {
+  text-align: center;
+}
